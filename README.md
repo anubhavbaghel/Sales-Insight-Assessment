@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sales Analytics Dashboard
 
-## Getting Started
+A dynamic sales visualization dashboard built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. This project demonstrates modern frontend architecture using the **Atomic Design Principle** to structure components for scalability and maintainability.
 
-First, run the development server:
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![Framework](https://img.shields.io/badge/Framework-Next.js_15-black)
+![Styling](https://img.shields.io/badge/Styling-Tailwind_CSS-blue)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Atomic Design Architecture:** Code is organized into Atoms, Molecules, and Organisms for maximum reusability.
+* **Dynamic Data Visualization:**
+    * **Multiple Chart Types:** Users can toggle between **Bar**, **Line**, and **Pie** charts.
+    * **Data Filtering:** Real-time filtering of sales data based on a custom numeric threshold.
+    * **Yearly Comparison:** Toggle views between 2024, 2023, and 2022 datasets.
+* **Mock API Integration:** Simulates real-world data fetching using Next.js API Routes (`/api/sales`).
+* **Responsive UI:** Fully responsive layout using Tailwind CSS.
+* **Type Safety:** Built with strict TypeScript for robust code quality.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Framework:** Next.js 15 (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS, `clsx`, `tailwind-merge`
+* **Charts:** Recharts
+* **Icons:** Lucide React
 
-## Learn More
+## Project Structure (Atomic Design)
 
-To learn more about Next.js, take a look at the following resources:
+I structured the `src` directory following the Atomic Design methodology to separate concerns effectively:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/
+├── app/
+│   ├── api/sales/      # Mock Backend (Simulating database response)
+│   └── dashboard/      # Page Template (The main view)
+├── components/
+│   ├── atoms/          # Base elements (Button, Input, Card)
+│   ├── molecules/      # Combined elements (ChartControls)
+│   └── organisms/      # Complex logic sections (SalesAnalytics)
+└── lib/                # Utilities (Tailwind class merging)

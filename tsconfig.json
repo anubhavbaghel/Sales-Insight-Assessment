@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "'@/*": ["./src/*"]
+      "@/*": ["./src/*"]  // Adjust based on your project structure
     }
   },
   "include": [
