@@ -1,0 +1,40 @@
+[00:00:00.946] Server  LOG      ✓ Ready in 701ms
+[00:00:07.452] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:47.334] Server  LOG      ✓ Compiled in 91ms
+[00:01:48.316] Browser LOG     threshold: 1000 number
+[00:01:53.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:53.264] Browser LOG     threshold: 1000 number
+[00:03:34.569] Server  LOG      ✓ Compiled in 50ms
+[00:03:35.316] Browser LOG     Filtered data: []
+[00:03:35.316] Browser LOG     Filtered data: []
+[00:03:35.316] Browser LOG     Filtered data: [{"name":"Jan","sales":4000},{"name":"Feb","sales":3000},{"name":"Mar","sales":2000},{"name":"Apr","sales":2780},{"name":"May","sales":1890},{"name":"Jun","sales":2390},{"name":"Jul","sales":3490},{"name":"Aug","sales":4000},{"name":"Sep","sales":3000},{"name":"Oct","sales":4500},{"name":"Nov","sales":5000},{"name":"Dec","sales":6000}]
+[00:03:35.317] Browser LOG     Filtered data: [{"name":"Jan","sales":4000},{"name":"Feb","sales":3000},{"name":"Mar","sales":2000},{"name":"Apr","sales":2780},{"name":"May","sales":1890},{"name":"Jun","sales":2390},{"name":"Jul","sales":3490},{"name":"Aug","sales":4000},{"name":"Sep","sales":3000},{"name":"Oct","sales":4500},{"name":"Nov","sales":5000},{"name":"Dec","sales":6000}]
+[00:07:21.580] Server  LOG      ✓ Compiled in 91ms
+[00:07:28.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:53.947] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:41.410] Server  LOG      ✓ Compiled in 46ms
+[00:09:48.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:56.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:06.963] Server  LOG      ✓ Compiled in 63ms
+[00:11:12.314] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:36.131] Server  LOG      ✓ Compiled in 67ms
+[00:13:40.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:48.215] Server  LOG      ✓ Compiled in 47ms
+[00:15:36.527] Server  LOG      ✓ Compiled in 23ms
+[00:15:39.746] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:58.272] Server  LOG      ✓ Compiled in 32ms
+[00:16:01.410] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
+[00:16:23.774] Server  LOG      ✓ Compiled in 53ms
+[00:16:23.835] Browser ERROR   `value` prop on `%s` should not be null. Consider using an empty string to clear the component or `undefined` for uncontrolled components. input
+[00:16:25.742] Server  ERROR   `value` prop on `input` should not be null. Consider using an empty string to clear the component or `undefined` for uncontrolled components.
+[00:16:26.004] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:26.232] Browser ERROR   `value` prop on `%s` should not be null. Consider using an empty string to clear the component or `undefined` for uncontrolled components. input
+[00:16:35.691] Server  LOG      ✓ Compiled in 37ms
+[00:16:38.987] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:56.295] Server  LOG      ✓ Compiled in 39ms
+[00:28:57.119] Server  LOG      ✓ Compiled in 43ms
+[00:28:58.419] Server  LOG      ✓ Compiled in 40ms
+[00:29:01.219] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:05.617] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:43.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:50.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
