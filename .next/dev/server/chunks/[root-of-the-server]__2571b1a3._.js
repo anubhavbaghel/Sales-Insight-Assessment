@@ -54,7 +54,7 @@ const SALES_DATA = {
     2024: [
         {
             name: 'Jan',
-            sales: 600
+            sales: 4000
         },
         {
             name: 'Feb',
@@ -70,7 +70,7 @@ const SALES_DATA = {
         },
         {
             name: 'May',
-            sales: 890
+            sales: 1890
         },
         {
             name: 'Jun',
@@ -112,7 +112,7 @@ const SALES_DATA = {
         },
         {
             name: 'Mar',
-            sales: 980
+            sales: 9800
         },
         {
             name: 'Apr',
@@ -120,7 +120,7 @@ const SALES_DATA = {
         },
         {
             name: 'May',
-            sales: 800
+            sales: 4800
         },
         {
             name: 'Jun',
@@ -136,7 +136,7 @@ const SALES_DATA = {
         },
         {
             name: 'Sep',
-            sales: 700
+            sales: 2300
         },
         {
             name: 'Oct',
@@ -166,7 +166,7 @@ const SALES_DATA = {
         },
         {
             name: 'Apr',
-            sales: 780
+            sales: 1780
         },
         {
             name: 'May',
@@ -190,7 +190,7 @@ const SALES_DATA = {
         },
         {
             name: 'Oct',
-            sales: 800
+            sales: 2800
         },
         {
             name: 'Nov',

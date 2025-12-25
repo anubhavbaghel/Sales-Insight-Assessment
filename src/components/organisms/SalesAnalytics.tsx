@@ -19,11 +19,11 @@ const SalesAnalytics = () => {
   const [selectedYear, setSelectedYear] = useState('2024');
 
   // 🔥 Responsive Pie Radius (SAFE — no weird dropdown issue now)
-  const [radius, setRadius] = useState(120);
+  const [radius, setRadius] = useState(80);
 
   useEffect(() => {
     const handleResize = () => {
-      setRadius(window.innerWidth < 640 ? 80 : 120);
+      setRadius(window.innerWidth < 640 ? 60 : 80);
     };
 
     handleResize();

@@ -32,16 +32,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$
 ;
 const Card = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "20728dd3b61ed1db0b3ec183651167f63ad57447b73187bc619f6d97192a5277") {
+    if ($[0] !== "d5f2abd3c45f1a9aff1e2374b2abc401c2156a782fb3a6b5964cfe5ea34760e1") {
         for(let $i = 0; $i < 6; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "20728dd3b61ed1db0b3ec183651167f63ad57447b73187bc619f6d97192a5277";
+        $[0] = "d5f2abd3c45f1a9aff1e2374b2abc401c2156a782fb3a6b5964cfe5ea34760e1";
     }
     const { children, className } = t0;
     let t1;
     if ($[1] !== className) {
-        t1 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("bg-white rounded-xl shadow-md border border-gray-100 p-6", className);
+        t1 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("bg-white rounded-xl shadow-md border border-gray-100 p-4 sm:p-6", className);
         $[1] = className;
         $[2] = t1;
     } else {
@@ -87,11 +87,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$
 ;
 const Button = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(11);
-    if ($[0] !== "5893ebebc99ac34200c3b8ec672360399e7d49b246c7bcb78acd2b455cb46248") {
+    if ($[0] !== "a655476aae91ef389e6dbc148bb818a23883f1b7edc259bf803d96df64b37929") {
         for(let $i = 0; $i < 11; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "5893ebebc99ac34200c3b8ec672360399e7d49b246c7bcb78acd2b455cb46248";
+        $[0] = "a655476aae91ef389e6dbc148bb818a23883f1b7edc259bf803d96df64b37929";
     }
     let className;
     let props;
@@ -114,7 +114,7 @@ const Button = (t0)=>{
             primary: "bg-blue-600 text-white hover:bg-blue-700",
             outline: "border border-gray-300 text-gray-700 hover:bg-gray-50"
         };
-        t2 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("px-4 py-2 rounded-md font-medium transition-colors text-sm", variants[variant], className);
+        t2 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("px-4 py-2 sm:py-2.5 rounded-md font-medium transition-colors text-sm sm:text-base", variants[variant], className);
         $[5] = className;
         $[6] = variant;
         $[7] = t2;
@@ -159,11 +159,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Input = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(11);
-    if ($[0] !== "4f666109087c2691dd67b86811ba625669ff204b9ef13d07540125d36fb54542") {
+    if ($[0] !== "de21d76ad99b566cc8bd18ca63ebb74409029daf1af535e837e53fa61923a5d9") {
         for(let $i = 0; $i < 11; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "4f666109087c2691dd67b86811ba625669ff204b9ef13d07540125d36fb54542";
+        $[0] = "de21d76ad99b566cc8bd18ca63ebb74409029daf1af535e837e53fa61923a5d9";
     }
     let label;
     let props;
@@ -194,7 +194,7 @@ const Input = (t0)=>{
     let t2;
     if ($[6] !== props) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-            className: "text-gray-500 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500",
+            className: "w-full text-gray-500 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500",
             ...props
         }, void 0, false, {
             fileName: "[project]/src/components/atoms/Input.tsx",
@@ -242,7 +242,6 @@ __turbopack_context__.s([
     ()=>ChartControls
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-// This runs in the browser
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$atoms$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/atoms/Button.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$atoms$2f$Input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/atoms/Input.tsx [app-client] (ecmascript)");
@@ -253,16 +252,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$atoms$2
 ;
 const ChartControls = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(40);
-    if ($[0] !== "a0bc99e7f27cbe34aa395fcd22b8da5e1aa10f417d4c25feec8238f9a065df2b") {
+    if ($[0] !== "7cdf646ffa8e1e9a726f6d9ff9ecba638ca40501e30e91cf603e217d45a2c172") {
         for(let $i = 0; $i < 40; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a0bc99e7f27cbe34aa395fcd22b8da5e1aa10f417d4c25feec8238f9a065df2b";
+        $[0] = "7cdf646ffa8e1e9a726f6d9ff9ecba638ca40501e30e91cf603e217d45a2c172";
     }
     const { threshold, onThresholdChange, chartType, onChartTypeChange, year, onYearChange } = t0;
     let t1;
     if ($[1] !== onThresholdChange) {
-        t1 = (e)=>onThresholdChange(e.target.value);
+        t1 = (e)=>onThresholdChange(Number(e.target.value));
         $[1] = onThresholdChange;
         $[2] = t1;
     } else {
@@ -270,15 +269,21 @@ const ChartControls = (t0)=>{
     }
     let t2;
     if ($[3] !== t1 || $[4] !== threshold) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$atoms$2f$Input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
-            label: "Sales Threshold ($)",
-            type: "number",
-            inputMode: "numeric",
-            value: threshold,
-            onChange: t1
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-full sm:w-auto",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$atoms$2f$Input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
+                label: "Sales Threshold ($)",
+                type: "number",
+                value: threshold,
+                onChange: t1
+            }, void 0, false, {
+                fileName: "[project]/src/components/molecules/ChartControls.tsx",
+                lineNumber: 40,
+                columnNumber: 44
+            }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 41,
+            lineNumber: 40,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[3] = t1;
@@ -294,7 +299,7 @@ const ChartControls = (t0)=>{
             children: "Year"
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 50,
+            lineNumber: 49,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[6] = t3;
@@ -318,7 +323,7 @@ const ChartControls = (t0)=>{
             children: "2024"
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 67,
+            lineNumber: 66,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -326,7 +331,7 @@ const ChartControls = (t0)=>{
             children: "2023"
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 68,
+            lineNumber: 67,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -334,7 +339,7 @@ const ChartControls = (t0)=>{
             children: "2022"
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 69,
+            lineNumber: 68,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[9] = t5;
@@ -348,11 +353,11 @@ const ChartControls = (t0)=>{
     let t8;
     if ($[12] !== t4 || $[13] !== year) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col gap-1.5",
+            className: "flex flex-col gap-1.5 relative w-full sm:w-auto",
             children: [
                 t3,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                    className: "text-gray-500 border border-gray-300 rounded-md px-3 py-2 text-sm",
+                    className: "w-full sm:w-auto bg-white text-gray-700 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 relative z-50",
                     value: year,
                     onChange: t4,
                     children: [
@@ -362,13 +367,13 @@ const ChartControls = (t0)=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/molecules/ChartControls.tsx",
-                    lineNumber: 80,
-                    columnNumber: 53
+                    lineNumber: 79,
+                    columnNumber: 79
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 80,
+            lineNumber: 79,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[12] = t4;
@@ -380,14 +385,14 @@ const ChartControls = (t0)=>{
     let t9;
     if ($[15] !== t2 || $[16] !== t8) {
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-4 items-end",
+            className: "flex flex-col sm:flex-row gap-4 w-full md:w-auto",
             children: [
                 t2,
                 t8
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 89,
+            lineNumber: 88,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[15] = t2;
@@ -413,7 +418,7 @@ const ChartControls = (t0)=>{
             children: "Bar"
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 107,
+            lineNumber: 106,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[20] = t10;
@@ -439,7 +444,7 @@ const ChartControls = (t0)=>{
             children: "Line"
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 125,
+            lineNumber: 124,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[25] = t13;
@@ -465,7 +470,7 @@ const ChartControls = (t0)=>{
             children: "Pie"
         }, void 0, false, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 143,
+            lineNumber: 142,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[30] = t16;
@@ -477,7 +482,7 @@ const ChartControls = (t0)=>{
     let t19;
     if ($[33] !== t12 || $[34] !== t15 || $[35] !== t18) {
         t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-2",
+            className: "flex flex-wrap gap-2 justify-start md:justify-end",
             children: [
                 t12,
                 t15,
@@ -485,7 +490,7 @@ const ChartControls = (t0)=>{
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 152,
+            lineNumber: 151,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[33] = t12;
@@ -498,14 +503,14 @@ const ChartControls = (t0)=>{
     let t20;
     if ($[37] !== t19 || $[38] !== t9) {
         t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col md:flex-row gap-4 items-end justify-between mb-6 p-4 bg-gray-50 rounded-lg",
+            className: "flex flex-col md:flex-row gap-4 md:items-end justify-between mb-6 p-4 bg-gray-50 rounded-lg",
             children: [
                 t9,
                 t19
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/molecules/ChartControls.tsx",
-            lineNumber: 162,
+            lineNumber: 161,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[37] = t19;
@@ -542,6 +547,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/recharts/es6/cartesian/YAxis.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$CartesianGrid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/recharts/es6/cartesian/CartesianGrid.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/recharts/es6/component/Tooltip.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/recharts/es6/component/Legend.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/recharts/es6/component/ResponsiveContainer.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Cell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/recharts/es6/component/Cell.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$atoms$2f$Card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/atoms/Card.tsx [app-client] (ecmascript)");
@@ -557,10 +563,26 @@ const SalesAnalytics = ()=>{
     _s();
     const [data, setData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
-    const [thresholdInput, setThresholdInput] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("1000");
-    const threshold = Number(thresholdInput) || 0;
+    const [threshold, setThreshold] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(1000);
     const [chartType, setChartType] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('bar');
     const [selectedYear, setSelectedYear] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('2024');
+    // 🔥 Responsive Pie Radius (SAFE — no weird dropdown issue now)
+    const [radius, setRadius] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(80);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "SalesAnalytics.useEffect": ()=>{
+            const handleResize = {
+                "SalesAnalytics.useEffect.handleResize": ()=>{
+                    setRadius(window.innerWidth < 640 ? 60 : 80);
+                }
+            }["SalesAnalytics.useEffect.handleResize"];
+            handleResize();
+            window.addEventListener("resize", handleResize);
+            return ({
+                "SalesAnalytics.useEffect": ()=>window.removeEventListener("resize", handleResize)
+            })["SalesAnalytics.useEffect"];
+        }
+    }["SalesAnalytics.useEffect"], []);
+    // Fetch Data
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "SalesAnalytics.useEffect": ()=>{
             const fetchData = {
@@ -569,12 +591,9 @@ const SalesAnalytics = ()=>{
                     try {
                         const res = await fetch('/api/sales');
                         const json = await res.json();
-                        setData([
-                            ...json[selectedYear]
-                        ]);
+                        setData(json[selectedYear]);
                     } catch (error) {
                         console.error("Failed to fetch data", error);
-                        setData([]);
                     } finally{
                         setLoading(false);
                     }
@@ -585,15 +604,7 @@ const SalesAnalytics = ()=>{
     }["SalesAnalytics.useEffect"], [
         selectedYear
     ]);
-    // ✅ Memoized filtered data
-    const filteredData = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
-        "SalesAnalytics.useMemo[filteredData]": ()=>data.filter({
-                "SalesAnalytics.useMemo[filteredData]": (item)=>item.sales >= threshold
-            }["SalesAnalytics.useMemo[filteredData]"])
-    }["SalesAnalytics.useMemo[filteredData]"], [
-        data,
-        threshold
-    ]);
+    const filteredData = data.filter((item)=>item.sales >= threshold);
     const COLORS = [
         '#0088FE',
         '#00C49F',
@@ -603,7 +614,7 @@ const SalesAnalytics = ()=>{
         '#82ca9d'
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$atoms$2f$Card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-        className: "w-full max-w-5xl mx-auto",
+        className: "w-full max-w-6xl mx-auto",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-6",
@@ -613,7 +624,7 @@ const SalesAnalytics = ()=>{
                         children: "Annual Sales"
                     }, void 0, false, {
                         fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                        lineNumber: 40,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -624,45 +635,38 @@ const SalesAnalytics = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                        lineNumber: 41,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                lineNumber: 39,
+                lineNumber: 48,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$molecules$2f$ChartControls$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ChartControls"], {
-                threshold: thresholdInput,
-                onThresholdChange: setThresholdInput,
+                threshold: threshold,
+                onThresholdChange: setThreshold,
                 chartType: chartType,
                 onChartTypeChange: setChartType,
                 year: selectedYear,
                 onYearChange: setSelectedYear
             }, void 0, false, {
                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                lineNumber: 44,
+                lineNumber: 53,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-white p-4 border rounded-lg min-h-96",
+                className: "bg-white p-4 border rounded-lg min-h-60 sm:min-h-80",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "Loading..."
                 }, void 0, false, {
                     fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                    lineNumber: 47,
+                    lineNumber: 56,
                     columnNumber: 20
-                }, ("TURBOPACK compile-time value", void 0)) : filteredData.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-center text-gray-500 mt-20",
-                    children: "No sales above selected threshold"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                    lineNumber: 47,
-                    columnNumber: 68
                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
                     width: "100%",
-                    height: 400,
+                    height: 260,
                     children: chartType === 'line' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$LineChart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LineChart"], {
                         data: filteredData,
                         children: [
@@ -670,24 +674,36 @@ const SalesAnalytics = ()=>{
                                 strokeDasharray: "3 3"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 51,
+                                lineNumber: 58,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
-                                dataKey: "name"
+                                dataKey: "name",
+                                tick: {
+                                    fontSize: 12
+                                }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 52,
+                                lineNumber: 59,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {}, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {
+                                tick: {
+                                    fontSize: 12
+                                }
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 53,
+                                lineNumber: 62,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {}, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 54,
+                                lineNumber: 65,
+                                columnNumber: 17
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Legend"], {}, void 0, false, {
+                                fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
+                                lineNumber: 66,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Line"], {
@@ -696,13 +712,13 @@ const SalesAnalytics = ()=>{
                                 stroke: "#8884d8"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 55,
+                                lineNumber: 67,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                        lineNumber: 50,
+                        lineNumber: 57,
                         columnNumber: 37
                     }, ("TURBOPACK compile-time value", void 0)) : chartType === 'pie' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$PieChart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PieChart"], {
                         children: [
@@ -712,29 +728,36 @@ const SalesAnalytics = ()=>{
                                 nameKey: "name",
                                 cx: "50%",
                                 cy: "50%",
-                                outerRadius: 120,
+                                outerRadius: radius,
+                                innerRadius: radius - 40,
+                                fill: "#8884d8",
                                 label: true,
-                                children: filteredData.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Cell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Cell"], {
+                                children: filteredData.map((entry, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Cell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Cell"], {
                                         fill: COLORS[index % COLORS.length]
                                     }, `cell-${index}`, false, {
                                         fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                        lineNumber: 58,
-                                        columnNumber: 51
+                                        lineNumber: 70,
+                                        columnNumber: 55
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 57,
+                                lineNumber: 69,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {}, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 60,
+                                lineNumber: 72,
+                                columnNumber: 17
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Legend"], {}, void 0, false, {
+                                fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
+                                lineNumber: 73,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                        lineNumber: 56,
+                        lineNumber: 68,
                         columnNumber: 52
                     }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$BarChart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BarChart"], {
                         data: filteredData,
@@ -743,24 +766,36 @@ const SalesAnalytics = ()=>{
                                 strokeDasharray: "3 3"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 62,
+                                lineNumber: 75,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
-                                dataKey: "name"
+                                dataKey: "name",
+                                tick: {
+                                    fontSize: 12
+                                }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 63,
+                                lineNumber: 76,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {}, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {
+                                tick: {
+                                    fontSize: 12
+                                }
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 64,
+                                lineNumber: 79,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {}, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 65,
+                                lineNumber: 82,
+                                columnNumber: 17
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Legend"], {}, void 0, false, {
+                                fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
+                                lineNumber: 83,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
@@ -768,33 +803,33 @@ const SalesAnalytics = ()=>{
                                 fill: "#3b82f6"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                                lineNumber: 66,
+                                lineNumber: 84,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                        lineNumber: 61,
+                        lineNumber: 74,
                         columnNumber: 29
                     }, ("TURBOPACK compile-time value", void 0))
-                }, `${chartType}-${threshold}-${selectedYear}`, false, {
+                }, void 0, false, {
                     fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                    lineNumber: 49,
-                    columnNumber: 18
+                    lineNumber: 56,
+                    columnNumber: 40
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-                lineNumber: 46,
+                lineNumber: 55,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/organisms/SalesAnalytics.tsx",
-        lineNumber: 38,
+        lineNumber: 47,
         columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(SalesAnalytics, "OQhfGTfmbGWcGlTbrl+8i15b6oc=");
+_s(SalesAnalytics, "YqhjHG+j4hIXIPiwy9+O1qqXLtM=");
 _c = SalesAnalytics;
 const __TURBOPACK__default__export__ = SalesAnalytics;
 var _c;
